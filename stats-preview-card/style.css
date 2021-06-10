@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +23,16 @@ body{
 .left {
     padding: 38px 45px;
     color: #fff;
+    font-family: "Inter", sans-serif;
+    height: 400px;
+}
+
+.left h1{
+    font-weight: 700;
+}
+
+.left p{
+    font-weight: 400;
 }
 
 
@@ -33,4 +45,19 @@ body{
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
     margin-top: 38px;
+    text-transform: uppercase;
+    
+}
+
+.parts {
+    text-transform: uppercase;
+}
+
+
+#lower p{
+    text-transform: uppercase;
+}
+
+#lower h2{
+    text-transform: lowercase;
 }
