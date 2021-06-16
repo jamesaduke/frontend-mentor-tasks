@@ -11,12 +11,18 @@ body{
 }
 
 .hero{
-    margin: 0 auto;
-    width: 50%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 45%;
     display: grid;
-    grid-template-columns: 75% 25%;
-    grid-gap: 20px;
+    grid-template-columns: 70% 30%;
     background-color: hsl(244, 38%, 16%);
+    height: calc(353px + 5vw);
+    border-radius: 10px;
 }
 
 
@@ -36,10 +42,16 @@ body{
 }
 
 
-.right {
-    
-}
 
+.right .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
 .stats{
     display: grid;
     grid-template-columns: auto auto auto;
