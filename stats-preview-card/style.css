@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+/* Variables */
+:root{
+    font-size: 15px;
+    --prim-dark-blue: hsl(233, 47%, 7%);
+    --prim-sat-blue: hsl(244, 38%, 16%);
+    --prim-violet: hsl(277, 64%, 61%);
+
+    --white: #fff;
+    --neu-trans-white: hsla(0, 0%, 100%, 0.75);
+    --neu-more-trans-white: hsla(0, 0%, 100%, 0.6);
+
+    --bg-violet: hsl(277deg, 100%, 50%, 0.42);
+    --bg-light-violet: hsl(293deg, 42%, 35%, 0.24);
+}
 
 * {
     margin: 0;
@@ -8,68 +22,30 @@
 
 body{
     font-size: 15px;
-}
-
-.hero{
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    position: absolute;
-    width: 45%;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    background-color: hsl(244, 38%, 16%);
-    height: calc(353px + 5vw);
-    border-radius: 10px;
-}
-
-
-.left {
-    padding: 38px 45px;
-    color: #fff;
     font-family: "Inter", sans-serif;
-    height: 400px;
-}
-
-.left h1{
-    font-weight: 700;
-}
-
-.left p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--prim-dark-blue);
+    color: white;
     font-weight: 400;
 }
 
 
-
-.right .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #FFF;
-}
-.stats{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    margin-top: 38px;
-    text-transform: uppercase;
-    
+main{
+   min-width: 600px;
+   z-index: 1;
+   display: flex;
+   margin: 1em; 
 }
 
-.parts {
-    text-transform: uppercase;
-}
-
-
-#lower p{
-    text-transform: uppercase;
-}
-
-#lower h2{
-    text-transform: lowercase;
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 5em 5em 5em 5em;
+    min-width: 300px;
+    width: 585px;
+    background: var(--prim-sat-blue);
+    border-radius: 10px 0 0 10px;   
 }
