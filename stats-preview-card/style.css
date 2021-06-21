@@ -4,7 +4,7 @@
     font-size: 15px;
     --prim-dark-blue: hsl(233, 47%, 7%);
     --prim-sat-blue: hsl(244, 38%, 16%);
-    --prim-violet: hsl(277, 64%, 61%);
+    --violet: hsl(277, 64%, 61%);
 
     --white: #fff;
     --neu-trans-white: hsla(0, 0%, 100%, 0.75);
@@ -49,3 +49,15 @@ section{
     background: var(--prim-sat-blue);
     border-radius: 10px 0 0 10px;   
 }
+
+section h1{
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+section h1 span{
+    color: var(--violet);
+}
+
