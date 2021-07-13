@@ -61,3 +61,31 @@ section h1 span{
     color: var(--violet);
 }
 
+section .info{
+    margin-right: 2em;
+}
+
+section .headline{
+    color: var(--neu-trans-white);
+    line-height: 1.5em;
+    margin-bottom: 4em;
+}
+
+section ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+section ul h2{
+    color: var(--white);
+    margin-bottom: 0.3em;
+}
+
+section ul p{
+    text-transform: uppercase;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.75em;
+    color: var(--neu-trans-white);
+}
