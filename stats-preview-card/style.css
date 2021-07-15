@@ -111,3 +111,22 @@ section ul p{
     height: 100%;
     mix-blend-mode: color-burn;
 }
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.80em;
+    line-height: 20px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--neu-trans-white);
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: var(--violet);
+}
