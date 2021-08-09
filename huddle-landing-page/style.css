@@ -50,3 +50,29 @@ header{
     width: 100%;
 }
 
+main{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns:auto auto;
+    margin-top: 6.5em;
+}
+.illustration > img{
+    width: 42.5em;
+}
+
+.information{
+    margin-top: 3em;
+}
+.intro-paragraph > h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+.intro-paragraph > p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 3em;
+}
