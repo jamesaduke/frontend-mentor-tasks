@@ -48,7 +48,7 @@ img{
 
 .information{
     display: flex;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 p{
@@ -95,3 +95,30 @@ button{
     text-decoration: none;
     margin-left: 15px;
 }
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+    .information{
+        flex-direction: column;
+    }
+    
+    .information > div:first-child{
+        flex: 1;
+        margin-right: 0;
+        text-align: center;
+
+    }
+    
+    .information > div:last-child{
+        flex: 1;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .socials{
+        justify-content: center;
+    }
+}
+
+
+
